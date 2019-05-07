@@ -25,3 +25,12 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Some steps to configure new proj
+
+Install `node` / latest version of `ng-cli` (https://angular.io/guide/quickstart).
+Run `ng new proj-name` (with some params if is needed: https://angular.io/cli/new).
+Run `ng serve --open` to test the new project.
+> In case you are comming from older `ng-cli` version, check this out: https://github.com/angular/angular-cli/issues/9408
+>> `npm install --save-dev @angular/cli@latest` and `ng update @angular/cli` 
+
